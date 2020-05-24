@@ -29,6 +29,8 @@
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
+        border-radius: 1rem;
+
 }
 
 #roll-button div:nth-child(1) {

@@ -1,23 +1,24 @@
 #underline {
-    color: rgb(6, 53, 53);
-    position: relative;
-    cursor: pointer;
-    text-transform: uppercase;
+  /* color: rgb(6, 53, 53); */
+  color: rgba(255, 255, 255, 0.527);
+  position: relative;
+  cursor: pointer;
+  text-transform: uppercase;
 }
   
 #underline::before {
-    position: absolute;
-    top: 50%;
-    transform: translate(0,-50%);
-    content: "";
-    display: block;
-    height: 0.5rem;
-    width: 0;
-    background-color: rgb(55, 161, 147);
-    opacity: .5;
-    transition: all .2s cubic-bezier(1, 0, 0, 1);
+  position: absolute;
+  top: 100%;
+  transform: translate(0,-50%);
+  content: "";
+  display: block;
+  height: 0.5rem;
+  width: 0;
+  background-color: rgba(206, 156, 103, 0.897);
+  /* opacity: .5; */
+  transition: all .2s cubic-bezier(1, 0, 0, 1);
   }
   
 #underline:hover::before{
-      width: 100%;
+  width: 100%;
 }

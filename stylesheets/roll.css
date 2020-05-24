@@ -1,4 +1,4 @@
-.roll-button {
+#roll-button {
     font-size: 18px;
     width: 200px;
     -webkit-box-sizing: border-box;
@@ -9,11 +9,11 @@
     -moz-perspective: 500px;
 }
 
-.roll-button:hover {
+#roll-button:hover {
     cursor: pointer;
 }
 
-.roll-button div {
+#roll-button div {
     position: absolute;
     text-align: center;
     width: 100%;
@@ -26,7 +26,7 @@
     -moz-box-sizing: border-box;
 }
 
-.roll-button div:nth-child(1) {
+#roll-button div:nth-child(1) {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -43,7 +43,7 @@
     -moz-transform-origin: 50% 50% -25px;
 }
 
-.roll-button div:nth-child(2) {
+#roll-button div:nth-child(2) {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -60,7 +60,7 @@
     -moz-transform-origin: 50% 50% -25px;
 }
 
-.roll-button:hover div:nth-child(1) {
+#roll-button:hover div:nth-child(1) {
     color: #ffffff;
     transition: all 0.2s ease;
     -webkit-transition: all 0.2s ease;
@@ -70,7 +70,7 @@
     -moz-transform: rotateX(0deg);
 }
 
-.roll-button:hover div:nth-child(2) {
+#roll-button:hover div:nth-child(2) {
     background-color: #000000;
     transition: all 0.2s ease;
     -webkit-transition: all 0.2s ease;

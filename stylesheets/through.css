@@ -1,0 +1,24 @@
+#through {
+    color: rgb(6, 53, 53);
+    position: relative;
+    cursor: pointer;
+    font-size: 2rem;
+    letter-spacing: 0.5rem;
+}
+  
+#through::before {
+    position: absolute;
+    top: 35%;
+    transform: translate(0,-50%);
+    content: "";
+    display: block;
+    height: 0.3rem;
+    width: 0;
+    background-color: rgb(55, 161, 147);
+    opacity: .5;
+    transition: all 1s cubic-bezier(1, 0, 0, 1);
+  }
+  
+#through:hover::before{
+      width: 100%;
+}

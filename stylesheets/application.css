@@ -9,3 +9,10 @@ html {
     flex-wrap: wrap;
 }
 
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+div:hover {
+    cursor: pointer;
+}

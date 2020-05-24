@@ -1,23 +1,23 @@
-.edit-button{
-    height: 1.5rem;
-    min-width: 5rem;
+#press {
+    height: 3.5rem;
+    width: 8rem;
     background: whitesmoke;
     border: none;
     outline: none;
     color: rgb(65, 64, 64);
-    font-size: 0.5rem;
-    border-radius: 3px;
-    box-shadow: 0 5px 0px rgb(211, 211, 211);
-    border-bottom: 2px solid rgb(199, 197, 197);
+    font-size: 1rem;
+    border-radius: 4.5px;
+    box-shadow: 0 7.5px 0px rgb(211, 211, 211);
+    border-bottom: 3px solid rgb(199, 197, 197);
 }
 
-.edit-button:hover{
+#press:hover{
     transition: all 0.1s ease-in;
     cursor: pointer;
 }
   
-.edit-button:active{
-    transform:translateY(4px);
-    border-bottom-width: 2px;
+#press:active{
+    transform:translateY(6px);
+    border-bottom-width: 3px;
     box-shadow: none;
 }

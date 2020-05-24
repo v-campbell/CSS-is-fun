@@ -1,8 +1,7 @@
 #bouncy {
-    animation: bounce 5s infinite linear;
     /*  position: relative; */
+    animation: bounce 5s infinite linear;
 }
-
 @keyframes bounce {
     0%{top:0px}
     40%{top:0px}

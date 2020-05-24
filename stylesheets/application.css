@@ -27,7 +27,3 @@ html {
 #all > div > div:hover {
     cursor: pointer;
 }
-
-#all > div > div {
-    border: 5px solid green;
-}
